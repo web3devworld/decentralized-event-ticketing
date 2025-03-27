@@ -1,0 +1,15 @@
+[features]
+seeds = false
+
+[programs.localnet]
+ticket_dapp = "YourProgramIDHere"
+
+[registry]
+url = "https://api.metaplex.com"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

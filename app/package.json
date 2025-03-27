@@ -1,0 +1,36 @@
+{
+    "name": "ticket-dapp-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@project-serum/anchor": "^0.28.0", // Anchor library for Solana interaction
+      "@solana/web3.js": "^1.70.0", // Solana Web3.js library
+      "react": "^18.2.0", // React framework
+      "react-dom": "^18.2.0", // React DOM
+      "react-scripts": "5.0.1" // Scripts for React development
+    },
+    "scripts": {
+      "start": "react-scripts start", // Start the development server
+      "build": "react-scripts build", // Build the production-ready app
+      "test": "react-scripts test", // Run tests
+      "eject": "react-scripts eject" // Eject from Create React App configuration
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }

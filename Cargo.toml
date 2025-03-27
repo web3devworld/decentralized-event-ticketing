@@ -1,0 +1,17 @@
+[package]
+name = "ticket_dapp"
+version = "0.1.0"
+description = "Decentralized Event Ticketing DApp"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "0.28.0" # Use the latest version compatible with your Anchor setup
+anchor-spl = "0.28.0"
+mpl-token-metadata = "1.4.0"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
